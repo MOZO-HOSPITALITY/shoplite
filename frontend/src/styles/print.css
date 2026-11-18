@@ -1,0 +1,22 @@
+@media print {
+  .promo-banner,
+  .app-header,
+  .app-footer,
+  .toast-region,
+  .no-print {
+    display: none !important;
+  }
+
+  :root {
+    background: #fff;
+  }
+
+  .page-layout {
+    padding: 0 !important;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
